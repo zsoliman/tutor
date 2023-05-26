@@ -1,4 +1,17 @@
-# Getting Started with Create React App
+# Tutor
+Flask/ Javascript web app for tutoring content
+
+## Local development setup
+1. Create a virutal environment: `python3 -m venv venv`
+2. Start virtual environment: `source ven/bin/activate`
+3. install requirements: `pip3 install -r requirments.txt`
+
+## Running the application
+From the top level directory:
+1. Start the server: `flask run`
+2. Navigate to site [127.0.0.1:5000](127.0.0.1:5000)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,4 +81,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# tutor
+
