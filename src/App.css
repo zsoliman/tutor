@@ -15,6 +15,27 @@
   color: white;
 }
 
+.courseCard {
+  border: 2px solid black;
+  width: 20vw;
+  height: 30vh;
+  margin: 5vw;
+}
+
+.ImagePlaceholder {
+  /* position: relative; */
+  /* border: solid white; */
+  margin-left: 2.5vw;
+  height: 20vh;
+  width: 15vw;
+  background-color: black;
+  opacity: 90%;
+}
+
+.learningCenter {
+  display: flex;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
