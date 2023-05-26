@@ -3,7 +3,7 @@ from flask import jsonify
 from app import app
 
 @app.route("/courses")
-def course(name):
+def course():
     courses = [
         {
             "name": "course1",
