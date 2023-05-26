@@ -7,9 +7,9 @@ Flask/ Javascript web app for tutoring content
 3. install requirements: `pip3 install -r requirments.txt`
 
 ## Running the application
-From the top level directory:
-1. Start the server: `flask run`
-2. Navigate to site [127.0.0.1:5000](127.0.0.1:5000)
+1. `cd api`
+2. Start the server: `flask run`
+3. Navigate to site [127.0.0.1:5000](127.0.0.1:5000)
 
 ## Getting Started with Create React App
 
