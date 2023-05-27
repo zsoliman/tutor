@@ -1,7 +1,9 @@
 import './App.css';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+
 import Home from './components/Home';
 import Learn from './components/Learn';
-import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import Course from './components/Course';
 
 function App() {
   return (
@@ -18,6 +20,11 @@ function App() {
           <Route
             path='/learn'
             element={<Learn />}
+          />
+
+          <Route
+            path='/course'
+            element={<Course />}
           />
 
         </Routes>

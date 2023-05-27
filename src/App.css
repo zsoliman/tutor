@@ -17,19 +17,14 @@
 
 .courseCard {
   border: 2px solid black;
-  width: 20vw;
-  height: 30vh;
+  width: auto;
+  height: auto;
   margin: 5vw;
+  padding: 5vh 5vw;
 }
 
-.ImagePlaceholder {
-  /* position: relative; */
-  /* border: solid white; */
-  margin-left: 2.5vw;
-  height: 20vh;
-  width: 15vw;
-  background-color: black;
-  opacity: 90%;
+.hidden {
+  display: none;
 }
 
 .learningCenter {

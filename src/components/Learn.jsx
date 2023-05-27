@@ -41,7 +41,10 @@ const Learn = () => {
                 {
                     courseList['courses'].map((course) => {
                         return (
-                            <CourseCard course={course} />
+                            <CourseCard
+                                key={course.name}
+                                course={course}
+                            />
                         )
                     })
                 }
