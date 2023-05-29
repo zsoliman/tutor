@@ -6,7 +6,14 @@ Flask/ Javascript web app for tutoring content
 2. Start virtual environment: `source ven/bin/activate`
 3. install requirements: `pip3 install -r requirments.txt`
 
-## Running the application
+## DB setup
+1. Activate virtualenv: `source venv/bin/activate`
+2. `cd api`
+3. Initialize db: `flask db init`
+4. Perform db migrations: `flask db upgrade`
+**TODO:** add scripts to clean and auto populate DB
+
+## Running the application backend
 1. `cd api`
 2. Start the server: `flask run`
 3. Navigate to site [127.0.0.1:5000](127.0.0.1:5000)
