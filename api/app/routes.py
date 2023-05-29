@@ -19,3 +19,7 @@ def course():
         }
     ]
     return jsonify(courses=courses)
+
+@app.route("/login", method=["POST"])
+def login():
+    pass
