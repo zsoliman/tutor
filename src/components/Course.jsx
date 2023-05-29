@@ -6,7 +6,7 @@ const Course = ({ course }) => {
         <div>
             <Navbar />
             <h1>Course Page</h1>
-            <h2>{course.name}</h2>
+            {/* <h2>{course.name}</h2> */}
         </div>
     )
 }
