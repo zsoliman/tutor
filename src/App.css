@@ -36,6 +36,11 @@
   display: flex;
 }
 
+.loginForm {
+  display: flex;
+  align-items: center;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;

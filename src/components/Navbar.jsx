@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-
+import Login from "./Login";
 const Navbar = () => {
     return (
         <div className="navbar">
@@ -18,6 +18,8 @@ const Navbar = () => {
                 to='/learn'>
                 <h3>Learning</h3>
             </Link>
+
+            <Login />
 
         </div>
     )
